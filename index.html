@@ -1,0 +1,271 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+  <title>Hello, world!</title>
+
+</head>
+
+<body>
+
+
+  <section>
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <p class="mt-5 nav_text">Main Navigation</p>
+      <a href="#">Main Navigation</a>
+      <a href="#">Services</a>
+      <a href="#">Clients</a>
+      <a href="#">Contact</a>
+    </div>
+    <div class="mobile_header container-fluid p-5">
+      <div class="logo1">
+        <i class="fa-brands fa-reddit logo_icon"></i>
+        <h3 class="mb-0 logo_text">Social <span>Element </span> </h3>
+      </div>
+      <i onclick="openNav()" class="fa-solid fa-bars" style="font-size: 22px;
+      color: #355687; position: relative;
+    top: -11px;"></i>
+
+    </div>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-xxl-2 px-0">
+          <div class="side_menu" id="haSis">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="logo">
+              <i class="fa-brands fa-reddit logo_icon"></i>
+              <h3 class="mb-0">Social <span>Element </span> </h3>
+            </div>
+            <p class="mt-5 nav_text">Main Navigation</p>
+            <div class="scroll_sidemenu overflow-y-scroll">
+              <ul class="p-0 ">
+                <li class="active nav-link">
+                  <a href="#">
+                    <i class="fa-solid fa-house icons"></i>
+                    <span class="dash px-4">Dashboard</span>
+                  </a>
+                </li>
+              </ul>
+
+              <ul class="p-0 mt-5">
+                <li class="nav-link">
+                  <a href="#">
+                    <i class="fa-solid fa-cubes-stacked icons"></i>
+                    <span class="dash px-4">Statictics</span>
+                  </a>
+                </li>
+              </ul>
+              <ul class="p-0 mt-5">
+                <li class="nav-link">
+                  <a href="#">
+                    <i class="fa-solid fa-rectangle-ad icons"></i>
+                    <span class="dash px-4">Advertising</span>
+                  </a>
+                </li>
+              </ul>
+              <ul class="p-0 mt-5">
+                <li class="nav-link">
+                  <a href="#">
+                    <i class="fa-solid fa-calendar-days icons"></i>
+                    <span class="dash px-4">Leave Management</span>
+                  </a>
+                </li>
+              </ul>
+              <ul class="p-0 mt-5">
+                <li class="nav-link">
+                  <a href="#">
+                    <i class="fa-solid fa-street-view icons"></i>
+                    <span class="dash px-4">Referal</span>
+                  </a>
+                </li>
+              </ul>
+              <ul class="p-0 mt-5">
+                <li class="nav-link">
+                  <a href="#">
+                    <i class="fa-solid fa-credit-card icons"></i>
+                    <span class="dash px-4">Payment</span>
+                  </a>
+                </li>
+              </ul>
+              <p class="mt-5 nav_text">Support</p>
+              <ul class="p-0 mt-5">
+                <li class="nav-link">
+                  <a href="#">
+                    <i class="fa-solid fa-book icons"></i>
+                    <span class="dash px-4">Knowledge Base</span>
+                  </a>
+                </li>
+              </ul>
+              <ul class="p-0 mt-5">
+                <li class="nav-link">
+                  <a href="#">
+                    <i class="fa-solid fa-user icons"></i>
+                    <span class="dash px-4">Profile</span>
+                  </a>
+                </li>
+              </ul>
+              <ul class="p-0 mt-5">
+                <li class="nav-link">
+                  <a href="#">
+                    <i class="fa-solid fa-gear icons"></i>
+                    <span class="dash px-4">Settings</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-xxl-10">
+          <div class="row">
+            <div class="col-xxl-8">
+              <div class="user_profile_main row">
+                <div class="profile_wish col-sm-6">
+                  <div class="profile_pic">
+                    <img src="images/christopher-campbell-rDEOVtE7vOs-unsplash.jpg" alt="Avatar" class="avatar">
+                    <div class="profile_name_details">
+                      <p><small>Morning james</small> <br> Unlock Full potential become <span>pro</span></p>
+                    </div>
+
+                  </div>
+                </div>
+                <div class="free_trial col-sm-6">
+                  <button>Start 7 days free trial</button>
+                </div>
+
+              </div>
+
+            </div>
+            <div class="col-xxl-4">
+              <div class="user_profile_right profile_icon row">
+                <div class="col-sm-6 profile_align px-0">
+                  <i class="fa-solid fa-magnifying-glass profile_icon"></i>
+                  <i class="fa-regular fa-bell profile_icon"></i>
+                  <p class="mb-0">En <i class="fa-solid fa-chevron-down profile_icon"></i></p>
+
+                </div>
+                <div class="col-sm-6 profile_align px-0">
+                  <img src="images/christopher-campbell-rDEOVtE7vOs-unsplash.jpg" alt="Avatar" class="avatar2">
+                  <p class="mb-0">James Robin</p>
+                  <i class="fa-solid fa-circle-chevron-down profile_icon"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xxl-8">
+              <div class="overview">
+                <p>Dashboard <span>Overview</span> </p>
+                <div>
+                  <ul class="date_and_time">
+                    <li>7d</li>
+                    <li>2w</li>
+                    <li>1m</li>
+                    <li>6m</li>
+                    <li>All time</li>
+                    <i class="fa-solid fa-calendar-days icons"></i>
+                    <li>May 1 2019</li>
+
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-xxl-4 monito_main">
+              <div class="monito">
+                <p>Monitoring</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xxl-8">
+                <div class="row main_boxes">
+
+                  <div class="col-md-4">
+                    <div class="boxes">
+                      <div class="boxes_head">
+                        <p>Avg Impression</p>
+                        <i class="fa-solid fa-ellipsis-vertical"></i>
+                      </div>
+                      <div class="box_content">
+                        <canvas id="myChart" style="width:100%;max-width:120px;height:35px;"></canvas>
+                        <div class="count_section">
+                          <p>1,213K</p>
+                          <div class="percnt_count">
+                            <i class="fa-solid fa-arrow-right icons"></i>
+                            <p>70.8%</p>
+                          </div>
+                        </div>
+                      </div>
+
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="boxes">
+                      <div class="boxes_head">
+                        <p>Avg Impression</p>
+                        <i class="fa-solid fa-ellipsis-vertical"></i>
+                      </div>
+                      <div class="box_content">
+                        <div class="chart_section">
+
+                        </div>
+                        <div class="count_section">
+                          <p>1,213K</p>
+                          <div class="percnt_count">
+                            <i class="fa-solid fa-arrow-right icons"></i>
+                            <p>70.8%</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="boxes">
+                      <div class="boxes_head">
+                        <p>Avg Impression</p>
+                        <i class="fa-solid fa-ellipsis-vertical"></i>
+                      </div>
+                      <div class="box_content">
+                        <div class="chart_section">
+                          Hello
+                        </div>
+                        <div class="count_section">
+                          <p>1,213K</p>
+                          <div class="percnt_count">
+                            <i class="fa-solid fa-arrow-right icons"></i>
+                            <p>70.8%</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="script.js">
+
+  </script>
+
+  <script src="js/fontawsome.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
