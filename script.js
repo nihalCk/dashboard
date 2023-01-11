@@ -13,7 +13,7 @@ function openNav() {
 }
 
 function closeNav() {
-  document.getElementById("haSis").style.left = "-650px";
+  document.getElementById("haSis").style.left = "-1000px";
 }
 
 

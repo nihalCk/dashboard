@@ -410,11 +410,25 @@ a {
   .monito_main{
     display: none;
   }
+  .scroll_sidemenu{
+    height: 70vh;
+    overflow-y: scroll;
+  
+  }
 }
 
+
+@media screen and (max-width: 520px) {
+.date_and_time {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+}
 
 
 .scroll_sidemenu{
   height: 70vh;
+  
 
 }
