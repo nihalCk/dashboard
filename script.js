@@ -19,7 +19,104 @@ function closeNav() {
 
 const ctx = document.getElementById("myChart");
 
+
 new Chart(ctx, {
+  type: "bar",
+  data: {
+    labels: ["#355688", "#355688", "#355688", "#355688", "#355688", "Orange", "red"],
+    
+    datasets: [
+      {
+        backgroundColor: [
+          '#355688',
+          '#355688',
+          '#355688',
+          '#355688',
+          '#355688',
+          '#7286a5',
+          '#7286a5'
+      ],
+      borderRadius: Number.MAX_VALUE,
+        barPercentage: 0.6,
+        label: "# of Votes",
+        data: [5, 8, 10, 8, 7, 5, 7],
+        borderWidth: 1,
+      },
+    ],
+  },
+  options: {
+    
+    responsive: true,
+    scales: {
+      y: {
+        beginAtZero: true,
+        display: false,
+      },
+      x: {
+        display: false,
+      },
+    },
+    plugins: {
+      legend: {
+        display: false,
+      },
+    },
+  },
+});
+
+
+const ctx2 = document.getElementById("myChart2");
+
+
+new Chart(ctx2, {
+  type: "bar",
+  data: {
+    labels: ["#355688", "#355688", "#355688", "#355688", "#355688", "Orange", "red"],
+    
+    datasets: [
+      {
+        backgroundColor: [
+          '#355688',
+          '#355688',
+          '#355688',
+          '#355688',
+          '#355688',
+          '#7286a5',
+          '#7286a5'
+      ],
+      borderRadius: Number.MAX_VALUE,
+        barPercentage: 0.6,
+        label: "# of Votes",
+        data: [5, 8, 10, 8, 7, 5, 7],
+        borderWidth: 1,
+      },
+    ],
+  },
+  options: {
+    
+    responsive: true,
+    scales: {
+      y: {
+        beginAtZero: true,
+        display: false,
+      },
+      x: {
+        display: false,
+      },
+    },
+    plugins: {
+      legend: {
+        display: false,
+      },
+    },
+  },
+});
+
+
+const ctx3 = document.getElementById("myChart3");
+
+
+new Chart(ctx3, {
   type: "bar",
   data: {
     labels: ["#355688", "#355688", "#355688", "#355688", "#355688", "Orange", "red"],
